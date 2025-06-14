@@ -1,0 +1,93 @@
+{
+    "es": {
+      "menu": {
+        "item2": "Sobre mí",
+        "item3": "Habilidades",
+        "item4": "Formación",
+        "item5": "Proyectos",
+        "item6": "Contacto"
+      },
+      "home": {
+        "home_text-1": "¡Hola! Soy",
+        "home_text-3": "Desarrollador Full-Stack",
+        "parrafo-info": "Estudiante de programación enfocado al Desarrollo Full-Stack. Como persona amante de la Tecnología y todo relacionado al código, desde el diseño de interfaces hasta la lógica del backend y la gestión de bases de datos.",
+        "cv_button": "Descargar CV",
+        "contact_button": "Contacto"
+      },
+      "habilidades": {
+        "title": "Habilidades"
+      },
+      "formacion": {
+        "title": "Formación",
+        "formacion1": "Ing.Software",
+        "tiempo-formacion1": "2022 - En curso",
+        "formacion2": "Programación Java",
+        "tiempo-formacion2": "Pendiente",
+        "formacion3": "Programador Full-Stack"
+      },
+      "sobre-mi": {
+        "title": "Sobre mí",
+        "texto_sobreMi": "Soy Estudiante de ingeniería en Software con experiencia de 2 años en la empresa YobelSCM, en la que elaboraba automatización de procesos como envíos masivos de correos. Integré un flujo automatizado que recibía respuestas de formularios, generaba un número de seguimiento y lo registraba en tiempo real en una base de datos. Cuento con una carta de recomendación que respalda la efectividad de mi trabajo y compromiso.<br><br>Siempre busco aportar con lo que sé, ayudar a mis compañeros cuando puedo y seguir aprendiendo juntos de forma colaborativa y proactiva."
+      },
+      "proyectos": {
+        "title": "Proyectos",
+        "title-proyecto1": "Generador de Vouchers con Códigos QR y de Barras.",
+        "info-proyecto1": "Generador automático de vouchers personalizados con códigos de barras y QR",
+        "title-proyecto2": "Gestor de Transportistas",
+        "info-proyecto2": "Plataforma de gestión de reclamos con generación de tickets, correos automáticos y respuesta desde AppSheet en tiempo real.",
+        "title-proyecto3": "Generador de Citas con Envío Masivo de Correos Personalizados.",
+        "info-proyecto3": "El sistema personaliza los mensajes según transportista y cliente, y los envía en un formato estandarizado, optimizando el proceso de citación y coordinación logística."
+      },
+      "contacto": {
+        "title": "Contacto",
+        "text": "Completa el siguiente formulario y contestaré lo antes posible",
+        "btn-enviar": "Enviar"
+      }
+    },
+    "en": {
+      "menu": {
+        "item2": "About Me",
+        "item3": "Skills",
+        "item4": "Education",
+        "item5": "Projects",
+        "item6": "Contact"
+      },
+      "home": {
+        "home_text-1": "Hi! I'm",
+        "home_text-3": "Full-Stack Developer",
+        "parrafo-info": "Programming student focused on full-stack development. As a technology enthusiast and passionate about everything related to code, from interface design to backend logic and database management.",
+        "cv_button": "Download CV",
+        "contact_button": "Contact"
+      },
+      "habilidades": {
+        "title": "Skills"
+      },
+      "formacion": {
+        "title": "Education",
+        "formacion1": "Software Engineering",
+        "tiempo-formacion1": "2022 - In progress",
+        "formacion2": "Java Programming",
+        "tiempo-formacion2": "Pending",
+        "formacion3": "Full-Stack Developer"
+      },
+      "sobre-mi": {
+        "title": "About Me",
+        "texto_sobreMi": "I am a Software Engineering student with 2 years of experience at YobelSCM, where I developed automation processes such as mass email dispatch. I integrated an automated flow that received form responses, generated a tracking number, and recorded it in real time in a database. I have a letter of recommendation that supports the effectiveness of my work and commitment.<br><br>I always seek to contribute with what I know, help my colleagues whenever I can, and continue learning together in a collaborative and proactive way."
+      },
+      "proyectos": {
+        "title": "Projects",
+        "title-proyecto1": "Voucher Generator with QR and Barcodes.",
+        "info-proyecto1": "Automatic generator of personalized vouchers with barcodes and QR",
+        "title-proyecto2": "Transport Claims Manager",
+        "info-proyecto2": "Claims management platform with ticket generation, automated emails, and real-time AppSheet replies.",
+        "title-proyecto3": "Appointment Generator with Mass Personalized Email Sending.",
+        "info-proyecto3": "The system personalizes messages according to carrier and client, sending them in a standardized format to streamline appointment coordination."
+      },
+      "contacto": {
+        "title": "Contact",
+        "text": "Complete the following form and I will reply as soon as possible",
+        "btn-enviar": "Send"
+      }
+    }
+  }
+  

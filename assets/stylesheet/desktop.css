@@ -1,0 +1,457 @@
+/* Header */
+
+.header {
+    justify-content: space-between;
+    padding: .8rem 3rem;
+    z-index: 2;
+}
+
+nav.nav_menu {
+    display: flex;
+}
+
+nav.nav_menu a {
+    font-size: 1.6rem;
+    padding: .5rem;
+    color: var(--white);
+    font-family: 'Cooper Hewitt';
+    text-decoration: none;
+    letter-spacing: .2rem;
+    right: 0;
+    margin-right: 2.5rem;
+}
+
+nav.nav_menu a:hover,
+nav.nav_menu a.active {
+    color: var(--beaver);
+    padding: .5rem;
+    border-bottom: 1px solid var(--beaver);
+    transition: all .5s;
+}
+
+nav.nav_menu.not-active a {
+    display: flex;
+}
+
+nav.nav_menu.not-active .flags {
+    display: flex;
+    width: 7rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.nav_menu.not-active .flags__item {
+    filter: contrast(65%);
+    cursor: pointer;
+}
+
+nav.nav_menu.not-active .flags__item img {
+    width: 3rem;
+    display: block;
+}
+
+div.btn {
+    display: none;
+}
+
+/* Home */
+
+.home {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 4rem;
+    height: 100vh;
+}
+
+.container_image-home {
+    width: 55%;
+    padding-right: 4rem;
+}
+
+.image_home {
+    object-fit: contain;
+}
+
+.home_info {
+    width: 40%;
+    padding-left: 6rem;
+}
+
+.container_text-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    letter-spacing: .2rem;
+    text-align: start;
+    margin-top: 6rem;
+}
+
+.home_text-1 {
+    font-size: 3.5rem;
+    margin-left: .4rem;
+    font-weight: bold;
+}
+
+.home_text-2 {
+    font-size: 6rem;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.home_text-3 {
+    margin: 0 0 2rem 0;
+    font-size: 1.8rem;
+    width: 35rem;
+    letter-spacing: .2rem;
+}
+
+.container_parrafo-info {
+    display: inline-block;
+    text-align: start;
+}
+
+.container_parrafo-info p {
+    font-family: 'Cooper Hewitt';
+    color: var(--light-grey);
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+
+.container_button {
+    display: flex;
+}
+
+.cv_button {
+    background: none;
+    color: var(--beaver);
+    border: 1px solid var(--beaver);
+    margin-right: 1rem;
+    transition: .2s;
+}
+
+.cv_button:hover {
+    background: #4e4c4c;
+    box-shadow: 0px 2px 10px #141414;
+    transition: 1s transform;
+}
+
+.contact_button {
+    display: inline-block;
+    background-color: var(--beaver);
+    border-radius: 3rem;
+    padding: .7rem 4rem .6rem 4rem;
+    color: var(--jet);
+    font-family: 'Cooper Hewitt';
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin: 2rem 0 2rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.contact_button:hover {
+    background-color: #252423;
+    box-shadow: 0px 2px 10px #141414;
+    transition: 1s transform;
+}
+
+.links {
+    width: 5%;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 3rem 2rem 3rem;
+}
+
+.links img {
+    margin: .7rem 0 .7rem 0;
+}
+
+.links .icon-CodePen {
+    margin: .7rem 0 .7rem .2rem;
+}
+
+/* Sobre Mí */
+
+.sobreMi {
+    padding-bottom: 4rem;
+}
+
+.sobreMi h1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+.container_content-sobreMi {
+    flex-direction: row-reverse;
+}
+
+.container_texto-sobreMi {
+    width: 70%;
+    padding: 0 5% 0 3rem;
+}
+
+.title_sobreMi {
+    text-align: start;
+    font-size: 2.8rem;
+    letter-spacing: .3rem;
+}
+
+.texto_sobreMi {
+    text-align: start;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    line-height: 2.8rem;
+}
+
+/* Habilidades */
+
+.habilidades {
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.habilidades h1 {
+    padding-top: 8rem;
+    font-size: 3rem;
+}
+
+.puntos1-habilidades {
+    display: inline;
+    position: absolute;
+    width: 6rem;
+    margin: 15rem 0 0 /* 41rem */ 20%;
+    background-attachment: fixed;
+}
+
+.puntos2-habilidades {
+    display: inline;
+    position: absolute;
+    width: 6rem;
+    margin: 0 0 0 76%;
+}
+
+.cards_container--habilidades {
+    grid-template-columns: 13rem 13rem 13rem 13rem;
+    grid-template-rows: 14rem 14rem;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.cards--habilidades:hover {
+    filter: saturate(100%);
+    border: 1px solid var(--beaver);
+    transition: all 1s;
+}
+
+.cards--habilidades p {
+    font-size: 1.6rem;
+    margin-top: .8rem;
+}
+
+/* Formación */
+
+.formacion {
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+.formacion h1 {
+    padding-top: 8rem;
+    font-size: 3rem;
+}
+
+.cards--formacion:hover {
+    border: 1px solid var(--beaver);
+    box-shadow: 0 10px 16px -6px rgb(5 5 5 / 30%), 0 25px 10px -24px rgb(5 5 5 / 10%);
+    transform: scale(1.1);
+    transition: .4s all;
+}
+
+
+*/
+/* Proyectos */
+.proyectos {
+    
+    background-color: var(--jet);
+    width: 100%;
+    padding: 0 2rem 5rem 2rem;
+    position: relative;
+}
+
+.proyectos h1 {
+    text-align: center;
+    color: var(--white);
+    font-family: 'Cooper Hewitt';
+    font-size: 3rem;
+    padding: 8rem 0 5rem 0;
+    letter-spacing: .1rem;
+}
+
+/* Puntos decorativos */
+.puntos1-proyectos,
+.puntos2-proyectos {
+    display: inline;
+    position: absolute;
+    width: 6rem;
+    z-index: 0;
+}
+
+.puntos1-proyectos {
+    top: 20rem;
+    left: 1%;
+}
+
+.puntos2-proyectos {
+    top: 5rem;
+    right: 1%;
+}
+
+/* Contenedor de tarjetas */
+.cards_container--proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    color: #110b0b;
+    justify-content: center;
+    gap: 3rem;
+}
+
+/* Tarjetas */
+.cards--proyectos {
+    background-color: var(--eerie-black);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 35rem;
+    box-shadow: 0 10px 16px -6px rgb(5 5 5 / 30%), 0 25px 10px -24px rgb(5 5 5 / 10%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.container_imgCard--proyectos img {
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+
+/* Texto */
+.container_textCard--proyectos {
+    padding: 2rem;
+    color: var(--white);
+}
+
+.container_textCard--proyectos h2 {
+    font-family: 'Cooper Hewitt';
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    margin-bottom: 1rem;
+}
+
+.container_textCard--proyectos p {
+    font-family: 'Cooper Hewitt';
+    font-size: 1.4rem;
+    letter-spacing: .05rem;
+    line-height: 1.5;
+}
+
+/* Botones */
+.container_btn--proyectos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container_btn--proyectos a {
+    flex: 1 1 0;
+    max-width: 50%;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.container_btn--proyectos button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    font-family: 'Cooper Hewitt';
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: .05rem;
+    padding: 0.9rem 1.2rem;
+    border-radius: 10px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.3s ease;
+}
+
+.btn_demo {
+    background-color: var(--beaver);
+    border: none;
+    color: var(--eerie-black);
+}
+
+.btn_demo:hover {
+    background-color: #776254;
+    box-shadow: 0px 13px 33px -14px rgba(0,0,0,0.75);
+}
+
+.btn_repo {
+    background-color: transparent;
+    border: 1px solid var(--beaver);
+    color: var(--beaver);
+}
+
+.btn_repo:hover {
+    background-color: var(--black);
+    box-shadow: 0px 13px 33px -14px rgba(0,0,0,0.75);
+}
+
+.btn_demo img,
+.btn_repo img {
+    width: 2rem;
+}
+
+/* Contacto */
+
+.contacto h1 {
+    padding: 8rem 0 2.5rem 0;
+    font-size: 3rem;
+}
+
+.container_box--contacto {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container_img--contacto {
+    display: inline-block;
+    width: 60rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container_img--contacto img {
+    width: 50rem;
+    object-fit: contain;
+}
+
+.container--contacto {
+    width: 50%;
+    margin: 0;
+    padding: 4rem 3rem;
+}
