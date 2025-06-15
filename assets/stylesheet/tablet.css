@@ -1,94 +1,136 @@
 /* Header */
-
 nav.nav_menu.active {
-    width: 50%;
-    margin-left: 50%;
-    top: 5.9rem;
+  width: 50%;
+  margin-left: 50%;
+  top: 5.9rem;
 }
 
 /* Home */
-
 .image_home {
-    max-width: 50rem;
+  max-width: 50rem;
 }
 
 .container_text-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home_text-1 {
-    margin-right: 1rem;
-    font-size: 2.4rem;
+  margin-right: 1rem;
+  font-size: 2.4rem;
 }
 
 .home_text-2 {
-    font-size: 3.6rem;
+  font-size: 3.6rem;
 }
 
 /* Sobre mi */
-
 .sobreMi {
-    padding: 0 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container_content-sobreMi {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container_texto-sobreMi {
-    padding: 4rem;
+  padding: 4rem;
 }
 
 .title_sobreMi {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .texto_sobreMi {
-    font-size: 1.8rem;
-    line-height: 2.5rem;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
 }
 
 .container_image-sobreMi {
-    width: 50%;
-    margin-top: 2rem;
+  width: 50%;
+  margin-top: 2rem;
 }
 
 /* Habilidades */
-
 .cards_container--habilidades {
-    column-gap: 4rem;
+  column-gap: 4rem;
 }
 
 /* Formación */
-
 .cards_container--formacion {
-    flex-wrap: wrap;
-    flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .cards--formacion {
-    margin: 0 2rem 3rem 2rem;
+  margin: 0 2rem 3rem 2rem;
 }
 
 /* Proyectos */
-
 .cards--proyectos {
-    max-width: 48rem;
+  max-width: 48rem;
 }
 
 .container_btn--proyectos button {
-    width: 20.6rem;
+  width: 20.6rem;
 }
 
 /* Contacto */
 .container--contacto {
-    margin: 0 auto;
-    width: 80%;
+  margin: 0 auto;
+  width: 80%;
 }
+
+/* =================== */
+/* Responsive Móviles  */
+/* =================== */
+@media screen and (max-width: 480px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .container_btn--proyectos {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+  }
+
+  .container_btn--proyectos a {
+    max-width: 100%;
+  }
+
+  .container_btn--proyectos button {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+
+  .cards--proyectos {
+    max-width: 90vw;
+    margin: 0 auto;
+    position: relative; /* Asegura que .btn_flecha no se desborde */
+  }
+
+  .container_imgCard--proyectos img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .cards--proyectos .btn_flecha {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    transform: none;
+    scale: 0.9;
+  }
+}
+
+
+
+

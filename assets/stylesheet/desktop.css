@@ -366,12 +366,12 @@ div.btn {
     align-items: center;
     gap: 1rem;
     padding: 2rem;
-    flex-wrap: nowrap;
+    flex-wrap: wrap; /* ✅ Permite responsividad */
     flex-direction: row;
     width: 100%;
     box-sizing: border-box;
 }
-
+/*borrar arriba  */
 .container_btn--proyectos a {
     flex: 1 1 0;
     max-width: 50%;
