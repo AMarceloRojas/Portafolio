@@ -126,6 +126,50 @@
   }
 }
 
+/* Animación suave de entrada */
+.swal2-show-custom {
+  animation: fadeInScale 0.4s ease-in-out;
+}
+
+@keyframes fadeInScale {
+  from {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Fondo y bordes suaves */
+.swal2-popup.custom-alert {
+  border-radius: 20px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.35);
+  font-family: 'Poppins', sans-serif;
+  padding: 2rem 2.2rem;
+}
+
+
+
+/* Título del modal */
+.custom-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+/* Botón */
+.custom-button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.custom-button:hover {
+  background-color: #413d3d !important;
+}
 
 
 :root {

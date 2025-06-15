@@ -162,23 +162,55 @@ async function setLanguage(lang) {
         }
     });
 }
-const form = document.getElementById('form');
+const form = document.getElementById("form");
 
-  form.addEventListener('submit', function (e) {
-    e.preventDefault(); // Evita que el formulario se envíe de inmediato
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
 
-    // Enviar el formulario con Netlify
-    const data = new FormData(form);
-    fetch('/', {
-      method: 'POST',
-      body: data,
-    })
+  const data = new FormData(form);
+
+  fetch("/", {
+    method: "POST",
+    body: data,
+  })
     .then(() => {
-      alert('¡Gracias por tu mensaje!');
-      form.reset(); // Limpia los campos
+      Swal.fire({
+        title: '¡Mensaje enviado!',
+        html: '<p style="margin: 0; font-size: 1.1rem;">Gracias por contactarme. Te responderé pronto.</p>',
+        icon: 'success',
+        confirmButtonColor: '#2d2a2a',
+        background: '#9b8f85',
+        color: '#ffffff',
+        confirmButtonText: 'Entendido',
+        showClass: {
+          popup: 'swal2-show-custom'
+        },
+        customClass: {
+          popup: 'custom-alert',
+          icon: 'custom-icon',
+          title: 'custom-title',
+          confirmButton: 'custom-button'
+        }
+      });
+      form.reset();
     })
     .catch(() => {
-      alert('Hubo un error al enviar el formulario. Inténtalo de nuevo.');
+      Swal.fire({
+        title: 'Error',
+        text: 'Hubo un problema al enviar tu mensaje. Intenta más tarde.',
+        icon: 'error',
+        confirmButtonColor: '#2d2a2a',
+        background: '#9b8f85',
+        color: '#ffffff',
+        confirmButtonText: 'Ok',
+        customClass: {
+          popup: 'custom-alert',
+          icon: 'custom-icon',
+          title: 'custom-title',
+          confirmButton: 'custom-button'
+        }
+      });
     });
-  });
+});
+
 
