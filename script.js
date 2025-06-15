@@ -162,4 +162,23 @@ async function setLanguage(lang) {
         }
     });
 }
+const form = document.getElementById('form');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault(); // Evita que el formulario se envíe de inmediato
+
+    // Enviar el formulario con Netlify
+    const data = new FormData(form);
+    fetch('/', {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      alert('¡Gracias por tu mensaje!');
+      form.reset(); // Limpia los campos
+    })
+    .catch(() => {
+      alert('Hubo un error al enviar el formulario. Inténtalo de nuevo.');
+    });
+  });
 
