@@ -10,7 +10,7 @@
       "home": {
         "home_text-1": "¡Hola! Soy",
         "home_text-3": "Desarrollador Full-Stack",
-        "parrafo-info": "Estudiante de programación enfocado al Desarrollo Full-Stack. Como persona amante de la Tecnología y todo relacionado al código, desde el diseño de interfaces hasta la lógica del backend y la gestión de bases de datos.",
+        "parrafo-info": "Estudiante de programación enfocado en el desarrollo Full-Stack. Amante de la tecnología y de todo lo relacionado al código, desde el diseño de interfaces hasta la lógica del backend y la gestión de bases de datos.",
         "cv_button": "Descargar CV",
         "contact_button": "Contacto"
       },
@@ -27,7 +27,7 @@
       },
       "sobre-mi": {
         "title": "Sobre mí",
-        "texto_sobreMi": "Soy Estudiante de ingeniería en Software con experiencia de 2 años en la empresa YobelSCM, en la que elaboraba automatización de procesos como envíos masivos de correos. Integré un flujo automatizado que recibía respuestas de formularios, generaba un número de seguimiento y lo registraba en tiempo real en una base de datos. Cuento con una carta de recomendación que respalda la efectividad de mi trabajo y compromiso.<br><br>Siempre busco aportar con lo que sé, ayudar a mis compañeros cuando puedo y seguir aprendiendo juntos de forma colaborativa y proactiva."
+        "texto_sobreMi": "Soy estudiante de Ingeniería en Software con experiencia de 2 años en la empresa YobelSCM, en la que elaboraba automatización de procesos como envíos masivos de correos. Integré un flujo automatizado que recibía respuestas de formularios, generaba un número de seguimiento y lo registraba en tiempo real en una base de datos. Cuento con una carta de recomendación que respalda la efectividad de mi trabajo y compromiso.<br><br>Siempre busco aportar con lo que sé, ayudar a mis compañeros cuando puedo y seguir aprendiendo juntos de forma colaborativa y proactiva."
       },
       "proyectos": {
         "title": "Proyectos",
@@ -55,7 +55,7 @@
       "home": {
         "home_text-1": "Hi! I'm",
         "home_text-3": "Full-Stack Developer",
-        "parrafo-info": "Programming student focused on full-stack development. As a technology enthusiast and passionate about everything related to code, from interface design to backend logic and database management.",
+        "parrafo-info": "Programming student focused on Full-Stack development. Passionate about technology and everything related to code, from interface design to backend logic and database management.",
         "cv_button": "Download CV",
         "contact_button": "Contact"
       },
@@ -72,7 +72,7 @@
       },
       "sobre-mi": {
         "title": "About Me",
-        "texto_sobreMi": "I am a Software Engineering student with 2 years of experience at YobelSCM, where I developed automation processes such as mass email dispatch. I integrated an automated flow that received form responses, generated a tracking number, and recorded it in real time in a database. I have a letter of recommendation that supports the effectiveness of my work and commitment.<br><br>I always seek to contribute with what I know, help my colleagues whenever I can, and continue learning together in a collaborative and proactive way."
+        "texto_sobreMi": "I am a Software Engineering student with 2 years of experience at YobelSCM, where I developed process automation such as mass email sending. I integrated an automated workflow that received form responses, generated a tracking number, and registered it in real time in a database. I have a letter of recommendation that supports the effectiveness of my work and my commitment.<br><br>I always strive to contribute with what I know, help my teammates whenever I can, and keep learning together in a collaborative and proactive way."
       },
       "proyectos": {
         "title": "Projects",
